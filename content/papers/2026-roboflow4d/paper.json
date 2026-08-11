@@ -1,0 +1,31 @@
+{
+  "slug": "roboflow4d",
+  "title": "RoboFlow4D: A Lightweight Flow World Model toward Real-Time Flow-Guided Robotic Manipulation",
+  "short_title": "RoboFlow4D",
+  "authors": "S. Lin, H. Xu, J. Chen, Z. Li, G. Wang, **Y. Jing**, S. Xu, R. Zhao, B. Sheil, L.-P. Chau, G. Liu",
+  "role": "contributing",
+  "venue": {
+    "name": "International Conference on Machine Learning (ICML)",
+    "short": "ICML",
+    "year": 2026,
+    "status": "conference"
+  },
+  "themes": [
+    "embodied"
+  ],
+  "selected": false,
+  "rank": 200,
+  "tldr": "A flow world model light enough to close the loop on manipulation at real-time rates.",
+  "media": {
+    "teaser": "teaser.png",
+    "alt": "TODO",
+    "placeholder": false
+  },
+  "links": [
+    {
+      "type": "arxiv",
+      "url": "https://arxiv.org/abs/2605.17522",
+      "label": "arXiv"
+    }
+  ]
+}

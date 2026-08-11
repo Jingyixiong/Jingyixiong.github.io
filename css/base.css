@@ -1,0 +1,92 @@
+/* ============================================================
+   base.css — design tokens, reset, typography, dark mode
+   Edit colours and type scale here. Nothing layout-specific.
+   ============================================================ */
+
+:root{
+  /* light theme */
+  --bg:#ffffff;
+  --fg:#14171a;
+  --muted:#6b7280;
+  --line:#e6e8eb;
+  --band:#f6f7f9;
+  --accent:#1f4e79;
+  --accent-fg:#1f4e79;
+  --chip:#eef3f8;
+  --warn:#b04a2f;
+  /* mat behind a letterboxed paper figure (object-fit:contain in css/components.css) */
+  --fig-mat:#ffffff;
+
+  /* research theme colours — keep in sync with js/render.js THEME_GRADIENT */
+  --t-perception:#1f6f8b;
+  --t-physics:#6b4fa8;
+  --t-embodied:#b5651d;
+
+  /* metrics */
+  --max:1000px;
+  --r:6px;
+  --nav-h:56px;
+}
+
+/* follow the OS by default */
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#0e1013; --fg:#e7eaee; --muted:#98a0ab; --line:#242a31;
+    --band:#14171b; --accent:#7fb3e0; --accent-fg:#8ec0ea; --chip:#1b222a;
+    --warn:#e08a6d; --fig-mat:#14171b;
+    --t-perception:#5aa8c4; --t-physics:#a48ede; --t-embodied:#e0a05a;
+  }
+}
+
+/* explicit override from the toggle button (js/ui.js) */
+html[data-theme="dark"]{
+  --bg:#0e1013; --fg:#e7eaee; --muted:#98a0ab; --line:#242a31;
+  --band:#14171b; --accent:#7fb3e0; --accent-fg:#8ec0ea; --chip:#1b222a;
+  --warn:#e08a6d; --fig-mat:#14171b;
+  --t-perception:#5aa8c4; --t-physics:#a48ede; --t-embodied:#e0a05a;
+}
+html[data-theme="light"]{
+  --bg:#ffffff; --fg:#14171a; --muted:#6b7280; --line:#e6e8eb;
+  --band:#f6f7f9; --accent:#1f4e79; --accent-fg:#1f4e79; --chip:#eef3f8;
+  --warn:#b04a2f; --fig-mat:#ffffff;
+  --t-perception:#1f6f8b; --t-physics:#6b4fa8; --t-embodied:#b5651d;
+}
+
+*{box-sizing:border-box}
+
+html{
+  scroll-behavior:smooth;
+  scroll-padding-top:calc(var(--nav-h) + 16px);
+}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--fg);
+  font:400 16.5px/1.65 -apple-system,BlinkMacSystemFont,"Inter","Segoe UI",Roboto,
+       Helvetica,Arial,"Noto Sans",sans-serif;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+a{color:var(--accent-fg); text-decoration:none}
+a:hover{text-decoration:underline}
+:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radius:3px}
+
+img{max-width:100%}
+
+h1{font-size:2.05rem; letter-spacing:-.025em; line-height:1.2; margin:0 0 6px}
+h2{
+  font-size:.8rem; text-transform:uppercase; letter-spacing:.14em;
+  color:var(--muted); font-weight:650; margin:0 0 26px;
+  padding-bottom:10px; border-bottom:1px solid var(--line);
+}
+h3{font-size:1.06rem; letter-spacing:-.01em; margin:0 0 8px}
+h4{font-size:.95rem; margin:0 0 10px}
+p{margin:0 0 15px; max-width:70ch}
+
+.muted{color:var(--muted)}
+.small{font-size:14.5px}
+.todo{color:var(--warn); font-weight:650}
+
+@media(max-width:760px){ h1{font-size:1.75rem} }

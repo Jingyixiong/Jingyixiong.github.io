@@ -1,0 +1,29 @@
+# ---- Not part of the published site ----
+
+# Staging area for files awaiting deletion in Explorer
+_to_delete/
+
+# Full-resolution originals; only the derived webp/jpg are published
+assets/img/_source/
+
+# Orphaned research figures (theme images removed from the site, Aug 2026)
+assets/research/
+
+# Local preview helpers
+serve.bat
+serve.sh
+
+# Internal planning notes
+WEBSITE_PLAN.md
+PAPER_ASSETS_SPEC.md
+
+# ---- Cruft ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+desktop.ini
+.DS_Store
+*.swp
+*~
+__pycache__/
+*.pyc

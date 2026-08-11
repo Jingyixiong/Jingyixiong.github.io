@@ -1,0 +1,77 @@
+/* ============================================================
+   content.js — HAND-EDITED site content that is not a paper.
+   News, invited talks, professional service.
+
+   This is a plain JS object so the site works when opened from
+   disk (file://) without a local server. Edit it directly; no
+   build step is needed for this file.
+
+   Rules:
+   - `news[].text` may contain <b> and <a> tags.
+   - Newest news first. The homepage shows the first 4 and
+     reveals the rest behind "+ show earlier".
+   ============================================================ */
+
+window.SITE = {
+
+  news: [
+    { date: 'Aug 2026',
+      text: '<b><a href="https://arxiv.org/abs/2608.06164">BendTwin</a></b> is on arXiv — bending-aware differentiable spring&ndash;mass models for ' +
+            'dense-to-sparse physical reconstruction.' },
+
+    { date: 'Jul 2026',
+      text: 'Invited lecture at the <b>JC STEM Lab of Machine Learning and Computer Vision</b>, ' +
+            'PolyU Hong Kong: &ldquo;Physics-Driven 3D Reconstruction and Generation for Embodied AI&rdquo;.' },
+
+    { date: 'Jul 2026',
+      text: 'Invited lecture at the <b>Dongtumuwu Salon, Southeast University</b>, Nanjing: ' +
+            '&ldquo;From 3D Perception to Physics-Aware Embodied AI for Construction&rdquo;.' },
+
+    { date: 'Jun 2026',
+      text: '<b><a href="https://arxiv.org/abs/2606.28899">You Only Touch Once</a></b> released: ' +
+            '6-DoF object pose estimation from a single tactile contact.' },
+
+    { date: 'Jun 2026',
+      text: '<b><a href="https://arxiv.org/abs/2606.15015">NEXUS</a></b> released: neural energy ' +
+            'fields for physically consistent contact-rich 3D object dynamics.' },
+
+    { date: '2026',
+      text: '<b>RoboFlow4D</b> accepted at <b>ICML 2026</b>, <b>UnderOneFacade</b> at ' +
+            '<b>ECCV 2026</b>, and <b>ActionReasoning</b> at <b>ICRA 2026</b>.' },
+
+    { date: 'Feb 2026',
+      text: 'Appointed <b>Head of AI at InfraMind Labs</b>, leading a team of nine researchers ' +
+            'and engineers.' },
+
+    { date: 'Feb 2025',
+      text: 'Joined the <b>University of Cambridge</b> Department of Engineering as a Research ' +
+            'Associate (CSIC / Laing O&rsquo;Rourke Centre).' },
+
+    { date: 'Feb 2025',
+      text: '<b>DPhil awarded</b> by the University of Oxford.' }
+  ],
+
+  talks: [
+    { title: 'Physics-Driven 3D Reconstruction and Generation for Embodied AI',
+      where: 'JC STEM Lab of Machine Learning and Computer Vision, PolyU, Hong Kong',
+      date:  '31 July 2026' },
+
+    { title: 'From 3D Perception to Physics-Aware Embodied AI for Construction',
+      where: 'Dongtumuwu Salon, Southeast University, Nanjing',
+      date:  '14 July 2026' }
+  ],
+
+  service: [
+    { label: 'Journal reviewer',
+      body:  'Automation in Construction &middot; Underground Space &middot; ISPRS Journal of ' +
+             'Photogrammetry and Remote Sensing &middot; Journal of Computing in Civil Engineering ' +
+             '&middot; Engineering Structures' },
+
+    { label: 'Conference reviewer',
+      body:  'European Conference on Computer Vision (ECCV) Workshop' },
+
+    { label: 'Supervision',
+      body:  'Co-supervise research students and visiting interns. Student-led work under my ' +
+             'direction has produced publications at ICRA and ECCV and in Automation in Construction.' }
+  ]
+};

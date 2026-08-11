@@ -1,0 +1,32 @@
+{
+  "slug": "nexus",
+  "title": "NEXUS: Neural Energy Fields for Physically Consistent Contact-Rich 3D Object Dynamics",
+  "short_title": "NEXUS",
+  "authors": "Q. Ying, G. Wang, Y. Pan, V. A. Prisacariu, B. Sheil, **Y. Jing†**",
+  "role": "corresponding",
+  "venue": {
+    "name": "arXiv preprint",
+    "short": "arXiv",
+    "year": 2026,
+    "status": "preprint"
+  },
+  "themes": [
+    "physics",
+    "embodied"
+  ],
+  "selected": true,
+  "rank": 30,
+  "tldr": "Learns an energy field rather than a force map, so contact-rich dynamics stay physically consistent.",
+  "media": {
+    "teaser": "teaser.jpg",
+    "alt": "TODO",
+    "placeholder": false,
+    "teaser_video": "teaser.mp4"
+  },
+  "links": [
+    {
+      "type": "arxiv",
+      "url": "https://arxiv.org/abs/2606.15015"
+    }
+  ]
+}

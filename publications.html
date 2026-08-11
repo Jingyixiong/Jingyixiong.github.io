@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Publications — Yixiong Jing</title>
+<meta name="description" content="Publications of Yixiong Jing: 3D perception for civil infrastructure, physics-grounded reconstruction and world models, and embodied intelligence for construction robotics.">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+<nav><div class="wrap">
+  <a class="brand" href="index.html">Yixiong Jing</a>
+  <a class="nl keep" href="index.html">Home</a>
+  <a class="nl" href="index.html#research">Research</a>
+  <a class="nl" href="index.html#inframind">InfraMind</a>
+  <a class="nl keep" href="publications.html">Publications</a>
+  <a class="nl" href="index.html#contact">Contact</a>
+  <button id="theme-toggle" title="Toggle dark mode" aria-label="Toggle dark mode">&#9686;</button>
+</div></nav>
+
+<div class="wrap">
+  <section>
+    <h1 style="font-size:1.7rem">Publications</h1>
+    <p class="small muted" style="margin:10px 0 26px">
+      Bold denotes my name; &dagger; denotes corresponding author.
+      Full list also on <a href="https://scholar.google.com/citations?user=g7NWlqcAAAAJ&amp;hl=en">Google
+      Scholar</a>.
+    </p>
+
+    <div class="filters" id="pub-filters">
+      <button data-filter="all" aria-pressed="true">All</button>
+      <button data-filter="selected" aria-pressed="false">Selected</button>
+      <button data-filter="perception" aria-pressed="false">Perception</button>
+      <button data-filter="physics" aria-pressed="false">Physics</button>
+      <button data-filter="embodied" aria-pressed="false">Embodied</button>
+      <button data-filter="code" aria-pressed="false">Code &amp; data</button>
+    </div>
+
+    <div id="archive"></div>
+  </section>
+
+  <footer>
+    &copy; 2026 Yixiong Jing &middot;
+    <a href="index.html">Home</a> &middot;
+    <a href="https://scholar.google.com/citations?user=g7NWlqcAAAAJ&amp;hl=en">Scholar</a> &middot;
+    <a href="https://github.com/Jingyixiong">GitHub</a>
+  </footer>
+</div>
+
+<script src="data/content.js"></script>
+<script src="data/publications.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/render.js"></script>
+<script>
+  Render.filters('pub-filters', 'archive');
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "slug": "3d-multi-fpfhi",
+  "title": "3D Multimodal Feature for Infrastructure Anomaly Detection",
+  "short_title": "3D-Multi-FPFHI",
+  "authors": "**Y. Jing**, W. Lin, B. Sheil, S. Acikgoz",
+  "role": "first",
+  "venue": {
+    "name": "Automation in Construction 178, 106388",
+    "short": "AutCon",
+    "year": 2025,
+    "status": "journal"
+  },
+  "themes": [
+    "perception"
+  ],
+  "selected": true,
+  "rank": 50,
+  "tldr": "Fuses geometry and intensity into one descriptor that flags defects without ever seeing a labelled defect.",
+  "media": {
+    "teaser": "teaser.jpg",
+    "alt": "TODO",
+    "placeholder": false
+  },
+  "links": [
+    {
+      "type": "paper",
+      "url": "https://doi.org/10.1016/j.autcon.2025.106388",
+      "label": "Paper"
+    },
+    {
+      "type": "arxiv",
+      "url": "https://arxiv.org/abs/2502.05779"
+    },
+    {
+      "type": "code",
+      "url": "https://github.com/Jingyixiong/3D-Multi-FPFHI"
+    }
+  ]
+}

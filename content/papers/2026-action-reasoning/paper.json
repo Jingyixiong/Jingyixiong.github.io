@@ -1,0 +1,31 @@
+{
+  "slug": "action-reasoning",
+  "title": "ActionReasoning: Robot Action Reasoning in 3D Space with LLM for Robotic Brick Stacking",
+  "short_title": "ActionReasoning",
+  "authors": "G. Wang, Q. Ying, **Y. Jing†**, O. Wysocki, B. Sheil",
+  "role": "corresponding",
+  "venue": {
+    "name": "IEEE International Conference on Robotics and Automation (ICRA)",
+    "short": "ICRA",
+    "year": 2026,
+    "status": "conference"
+  },
+  "themes": [
+    "embodied"
+  ],
+  "selected": true,
+  "rank": 20,
+  "tldr": "An LLM reasons spatially about its own next action, and stacks bricks without a scripted plan.",
+  "media": {
+    "teaser": "teaser.jpg",
+    "alt": "TODO",
+    "placeholder": false
+  },
+  "links": [
+    {
+      "type": "arxiv",
+      "url": "https://arxiv.org/abs/2602.21161",
+      "label": "arXiv"
+    }
+  ]
+}

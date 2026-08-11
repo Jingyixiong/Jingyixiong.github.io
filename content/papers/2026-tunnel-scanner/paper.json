@@ -1,0 +1,31 @@
+{
+  "slug": "tunnel-scanner",
+  "title": "Tunnel Scanner: Geometry-Informed Synthetic Point Cloud Generation and Transfer Learning for Tunnel Segmentation",
+  "short_title": "Tunnel Scanner",
+  "authors": "W. Yang, W. Lin, **Y. Jing†**, T. Hill, O. Wysocki, B. Sheil",
+  "role": "corresponding",
+  "venue": {
+    "name": "Automation in Construction 187, 106924",
+    "short": "AutCon",
+    "year": 2026,
+    "status": "journal"
+  },
+  "themes": [
+    "perception"
+  ],
+  "selected": false,
+  "tldr": "Synthetic tunnels generated from geometry alone let a segmentation model transfer to scans it has never seen.",
+  "media": {
+    "teaser": "teaser.png",
+    "alt": "TODO",
+    "placeholder": false
+  },
+  "links": [
+    {
+      "type": "paper",
+      "url": "https://doi.org/10.1016/j.autcon.2026.106924",
+      "label": "Paper"
+    }
+  ],
+  "rank": 70
+}

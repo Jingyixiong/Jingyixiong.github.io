@@ -1,0 +1,178 @@
+/* ============================================================
+   components.css — news list, research theme cards, stat row,
+   publication cards, badges, filters, link buttons, galleries.
+   ============================================================ */
+
+/* ---------- news ---------- */
+.news{display:grid; grid-template-columns:112px 1fr; gap:4px 18px; font-size:15.5px; margin:0}
+.news dt{color:var(--muted); font-variant-numeric:tabular-nums; padding-top:1px}
+.news dd{margin:0 0 12px}
+.linkish{
+  background:none; border:none; padding:0; cursor:pointer;
+  color:var(--accent-fg); font:inherit; font-size:14.5px;
+}
+.linkish:hover{text-decoration:underline}
+@media(max-width:560px){
+  .news{grid-template-columns:1fr; gap:0}
+  .news dt{margin-top:10px; font-size:13.5px}
+}
+
+/* ---------- research themes ----------
+   Three themes side by side in one row, text only (no figures).
+   Stacks to a single column, with rules between, on narrow screens.
+   ------------------------------------------------------------ */
+.themes{
+  display:grid; grid-template-columns:repeat(3,1fr); gap:30px;
+  align-items:start;
+}
+/* min-height keeps the three paragraphs starting on the same line
+   even when a title wraps to two lines */
+.theme h3{font-size:1.02rem; line-height:1.35; margin:0 0 9px; min-height:2.7em}
+.theme p{max-width:none; margin:0}
+.tag{
+  display:inline-block; font-size:11.5px; letter-spacing:.09em;
+  text-transform:uppercase; font-weight:650; margin-bottom:7px;
+}
+.tag.perception{color:var(--t-perception)}
+.tag.physics{color:var(--t-physics)}
+.tag.embodied{color:var(--t-embodied)}
+.spine{
+  margin-top:34px; padding:16px 20px;
+  border-left:3px solid var(--accent); background:var(--band);
+  border-radius:0 var(--r) var(--r) 0; font-size:15.5px;
+}
+@media(max-width:900px){
+  .themes{grid-template-columns:1fr; gap:0}
+  .theme h3{min-height:0}
+  .theme + .theme{margin-top:20px; padding-top:20px; border-top:1px solid var(--line)}
+}
+
+/* ---------- stat row ---------- */
+.stats{display:grid; grid-template-columns:repeat(3,1fr); gap:26px; margin:30px 0 26px}
+.stat b{
+  display:block; font-size:1.55rem; letter-spacing:-.02em;
+  color:var(--accent-fg); line-height:1.2;
+}
+.stat span{font-size:14px; color:var(--muted)}
+.deployment-copy{max-width:none; margin-bottom:6px}
+.clients{font-size:14.5px; color:var(--muted); margin-top:4px; max-width:none}
+@media(max-width:640px){ .stats{grid-template-columns:1fr; gap:16px} }
+
+/* ---------- platform screenshots (InfraMind band) ----------
+   flex-grow is set to each image's aspect ratio so the two sit at exactly the
+   same height without cropping. Update the numbers if you swap an image for
+   one with a different shape. */
+.shots{display:flex; gap:16px; margin:30px 0 4px; align-items:flex-start}
+.shots figure{margin:0; min-width:0}
+.shots .wide{flex:254}      /* inframind-platform.webp  2.54 : 1 */
+.shots .tall{flex:170}      /* inframind-defect.webp    1.70 : 1 */
+.shots img{
+  width:100%; height:auto; display:block;
+  border-radius:var(--r); border:1px solid var(--line); background:#fff;
+}
+.shots figcaption{font-size:13px; line-height:1.5; color:var(--muted); margin-top:9px}
+@media(max-width:760px){ .shots{flex-direction:column; gap:22px} }
+
+/* ---------- filters ---------- */
+.filters{display:flex; flex-wrap:wrap; gap:7px; margin:-6px 0 20px}
+.filters button{
+  font:inherit; font-size:13.5px; padding:5px 12px; border-radius:20px;
+  cursor:pointer; border:1px solid var(--line);
+  background:transparent; color:var(--muted);
+}
+.filters button:hover{color:var(--fg)}
+.filters button[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:#fff}
+html[data-theme="dark"] .filters button[aria-pressed="true"]{color:#0e1013}
+@media (prefers-color-scheme:dark){
+  html:not([data-theme="light"]) .filters button[aria-pressed="true"]{color:#0e1013}
+}
+
+/* ---------- publication card ---------- */
+.pub{display:grid; grid-template-columns:212px 1fr; gap:22px; padding:20px 0;
+     border-top:1px solid var(--line)}
+.pub:first-child{border-top:none}
+.pub .thumb{
+  aspect-ratio:16/9; border-radius:4px; border:1px solid var(--line);
+  overflow:hidden; background:var(--band); position:relative; display:block;
+}
+/* object-fit:CONTAIN, not cover. Paper figures run anywhere from 1.2:1 to 3.4:1;
+   cover cropped nearly half the width off the widest pipeline figures. Contain
+   letterboxes instead, on a neutral surface so the bands stay quiet. The theme
+   gradient is still set inline by render.js and shows through for videos. */
+.pub .thumb img,.pub .thumb video{
+  width:100%; height:100%; object-fit:contain; display:block; background:var(--fig-mat);
+}
+/* The video is the visible layer whenever a paper has one; it autoplays and loops
+   (js/ui.js starts it and pauses it off-screen). The <img> still teaser sits
+   underneath as the fallback for a failed load or a reduced-motion visitor. */
+.pub .thumb video{position:absolute; inset:0; opacity:1; transition:opacity .25s}
+@media (prefers-reduced-motion:reduce){
+  .pub .thumb video{opacity:0}
+}
+.pub .authors{font-size:14px; color:var(--muted); margin:2px 0 6px}
+.pub .venue{font-size:14px; color:var(--muted)}
+.pub .tldr{font-size:14.5px; margin:8px 0 0; max-width:66ch}
+
+.badge{
+  display:inline-block; font-size:11px; letter-spacing:.06em; text-transform:uppercase;
+  font-weight:650; padding:2px 7px; border-radius:3px;
+  background:var(--chip); color:var(--accent-fg);
+  margin-left:7px; vertical-align:1px; white-space:nowrap;
+}
+.badge.outline{background:transparent; border:1px solid var(--line); color:var(--muted)}
+.badge.new{background:var(--accent); color:#fff}
+html[data-theme="dark"] .badge.new{color:#0e1013}
+@media (prefers-color-scheme:dark){
+  html:not([data-theme="light"]) .badge.new{color:#0e1013}
+}
+
+.btns{display:flex; flex-wrap:wrap; gap:6px; margin-top:10px}
+.btns a{
+  font-size:13px; padding:3px 10px; border:1px solid var(--line);
+  border-radius:4px; color:var(--muted);
+}
+.btns a:hover{color:var(--fg); border-color:var(--muted); text-decoration:none}
+.btns a.pending{border-style:dashed; color:var(--warn)}
+
+.year-head{
+  font-size:13px; letter-spacing:.1em; color:var(--muted); font-weight:650;
+  margin:28px 0 -6px; padding-top:14px; border-top:1px solid var(--line);
+}
+.year-head:first-child{border-top:none; padding-top:0; margin-top:0}
+@media(max-width:640px){ .pub{grid-template-columns:1fr; gap:12px} }
+
+/* ---------- simple row lists (talks, service) ---------- */
+.rows{font-size:15.5px}
+.rows > div{padding:9px 0; border-top:1px solid var(--line)}
+.rows > div:first-child{border-top:none}
+
+/* ---------- project page gallery ---------- */
+.gallery{display:grid; gap:26px; margin:26px 0 0}
+.gallery figure{margin:0}
+.gallery img{
+  width:100%; border-radius:var(--r); border:1px solid var(--line); display:block;
+}
+.gallery figcaption{font-size:14px; color:var(--muted); margin-top:8px}
+.hero-media{
+  border-radius:var(--r); border:1px solid var(--line);
+  overflow:hidden; margin:0 0 26px; background:var(--band);
+}
+.hero-media img,.hero-media video{width:100%; display:block}
+.bibtex{
+  background:var(--band); border:1px solid var(--line); border-radius:var(--r);
+  padding:14px 16px; font-size:13px; overflow-x:auto; line-height:1.5;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+.embed{
+  aspect-ratio:16/9; border:1px solid var(--line); border-radius:var(--r);
+  overflow:hidden; margin:0 0 12px; background:var(--band);
+}
+.embed iframe{width:100%; height:100%; border:0; display:block}
+
+/* ---------- placeholder notice ---------- */
+.notice{
+  font-size:14px; border:1px dashed var(--line); border-left:3px solid var(--warn);
+  border-radius:0 var(--r) var(--r) 0; padding:12px 16px; margin:0 0 22px;
+  color:var(--muted); background:var(--band);
+}
+.notice b{color:var(--warn)}

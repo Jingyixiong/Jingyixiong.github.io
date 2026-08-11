@@ -1,0 +1,35 @@
+{
+  "slug": "infradiffusion",
+  "title": "Zero-Shot Depth Map Restoration from Sparse Infrastructure Point Clouds Using Diffusion Models and Prompted Segmentation",
+  "short_title": "InfraDiffusion",
+  "authors": "**Y. Jing**, C. Zhang, H. Wu, G. Wang, O. Wysocki, B. Sheil",
+  "role": "first",
+  "venue": {
+    "name": "Automation in Construction 184, 106839",
+    "short": "AutCon",
+    "year": 2026,
+    "status": "journal"
+  },
+  "themes": [
+    "perception"
+  ],
+  "selected": true,
+  "rank": 40,
+  "tldr": "Restores dense depth from sparse scans with no task-specific training — a diffusion prior plus the right prompt.",
+  "media": {
+    "teaser": "teaser.jpg",
+    "alt": "TODO",
+    "placeholder": false
+  },
+  "links": [
+    {
+      "type": "paper",
+      "url": "https://doi.org/10.1016/j.autcon.2026.106839",
+      "label": "Paper"
+    },
+    {
+      "type": "arxiv",
+      "url": "https://arxiv.org/abs/2509.03324"
+    }
+  ]
+}

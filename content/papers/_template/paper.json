@@ -1,0 +1,70 @@
+{
+  "_HOW_TO_USE": [
+    "1. Copy this whole _template folder to content/papers/YYYY-your-slug/",
+    "2. Fill in the fields below and DELETE every key starting with an underscore.",
+    "3. Replace teaser.jpg with a 16:9 image (1600x900). This file is required.",
+    "4. Optionally add teaser.mp4 (<=6s, <=2MB, silent, loops), gallery images, bibtex.txt.",
+    "5. Run: python tools/build_index.py",
+    "The folder name is PERMANENT once published — URLs depend on it. When a preprint",
+    "becomes a journal paper, edit 'venue' in place; never make a second folder."
+  ],
+
+  "title": "Full title exactly as published",
+  "short_title": "Short name for nav and page titles",
+
+  "_authors": "Ordered. Wrap YOUR name in ** ** so it renders bold. Add † for corresponding author.",
+  "authors": "A. Author, **Y. Jing†**, B. Sheil",
+
+  "_role": "first | corresponding | contributing. 'first' = you are first author. 'corresponding' = you carry the dagger. 'contributing' = minor/middle author: the paper stays in the full archive and the theme filters but is NOT eligible for the homepage Selected list (the build enforces this).",
+  "role": "corresponding",
+
+  "_venue_status": "one of: journal | conference | preprint | under-review | dataset",
+  "venue": {
+    "name": "Automation in Construction 000, 000000",
+    "short": "AutCon",
+    "year": 2026,
+    "status": "journal"
+  },
+
+  "_themes": "one or more of: perception | physics | embodied. Drives colour and filters.",
+  "themes": ["perception"],
+
+  "_selected": "true puts it on the homepage. Requires role 'first' or 'corresponding'. Keep the selected set to about 8.",
+  "selected": false,
+
+  "_is_new": "true shows a 'New' badge. Remember to remove it after a few months.",
+  "is_new": false,
+
+  "_page": "true generates papers/<slug>/index.html. Requires 'abstract'. Use for your best work only.",
+  "page": false,
+
+  "_hidden": "true keeps the folder in the repo but removes it from the site. For work under review.",
+  "hidden": false,
+
+  "_tldr": "ONE plain-English sentence saying what changed. Highest-value field on the page.",
+  "tldr": "",
+
+  "abstract": "",
+
+  "media": {
+    "teaser": "teaser.jpg",
+    "_teaser_video": "Optional. Delete this line and the next if you have no video.",
+    "teaser_video": null,
+    "_alt": "One sentence describing the image. Accessibility and image search both use it.",
+    "alt": "",
+    "_placeholder": "Set true while the teaser is a stand-in; the build will warn you. Remove when real.",
+    "placeholder": true
+  },
+
+  "_gallery": "Project-page figures. Prefix filenames 01-, 02- to control order.",
+  "gallery": [
+    { "src": "gallery/01-method.jpg", "caption": "Method overview." }
+  ],
+
+  "_links": "type is one of: project paper arxiv code data video demo slides poster press. Render order is fixed by the site, not by this list. Use a url starting with # for 'not yet available'.",
+  "links": [
+    { "type": "paper", "url": "#TODO" },
+    { "type": "arxiv", "url": "#TODO" },
+    { "type": "code",  "url": "#TODO" }
+  ]
+}

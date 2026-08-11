@@ -1,0 +1,31 @@
+{
+  "slug": "crack-anomaly",
+  "title": "Anomaly Detection of Cracks in Synthetic Masonry Arch Bridge Point Clouds Using Fast Point Feature Histograms and PatchCore",
+  "short_title": "Crack Anomaly Detection",
+  "authors": "**Y. Jing**, J. X. Zhong, B. Sheil, S. Acikgoz",
+  "role": "first",
+  "venue": {
+    "name": "Automation in Construction 168, 105766",
+    "short": "AutCon",
+    "year": 2024,
+    "status": "journal"
+  },
+  "themes": [
+    "perception"
+  ],
+  "selected": false,
+  "tldr": "Finds cracks as statistical outliers, sidestepping the fact that nobody has a labelled crack dataset.",
+  "media": {
+    "teaser": "teaser.jpg",
+    "alt": "TODO",
+    "placeholder": false
+  },
+  "links": [
+    {
+      "type": "paper",
+      "url": "https://doi.org/10.1016/j.autcon.2024.105766",
+      "label": "Paper"
+    }
+  ],
+  "rank": 90
+}

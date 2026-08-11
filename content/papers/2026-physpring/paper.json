@@ -1,0 +1,31 @@
+{
+  "slug": "physpring",
+  "title": "PhySPRING: Structure-Preserving Reduction of Physics-Informed Twins via GNN",
+  "short_title": "PhySPRING",
+  "authors": "**Y. Jing**, X. Chen, G. Wang, O. Wysocki, H. Wu, B. Sheil",
+  "role": "first",
+  "venue": {
+    "name": "arXiv preprint",
+    "short": "arXiv",
+    "year": 2026,
+    "status": "preprint"
+  },
+  "themes": [
+    "physics"
+  ],
+  "selected": false,
+  "tldr": "Shrinks a physics-informed twin without losing the structural behaviour that made it useful.",
+  "media": {
+    "teaser": "teaser.jpg",
+    "alt": "TODO",
+    "placeholder": false,
+    "teaser_video": "teaser.mp4"
+  },
+  "links": [
+    {
+      "type": "arxiv",
+      "url": "https://arxiv.org/abs/2605.07687"
+    }
+  ],
+  "rank": 80
+}

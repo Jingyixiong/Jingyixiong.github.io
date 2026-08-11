@@ -1,0 +1,30 @@
+{
+  "slug": "you-only-touch-once",
+  "title": "You Only Touch Once: 6-DoF Object Pose Estimation from Single Tactile Contact",
+  "short_title": "You Only Touch Once",
+  "authors": "P. Ye, Y. Ma, H. Chen, G. Wang, **Y. Jing**, B. Sheil, Y. Du, E. Adelson",
+  "role": "contributing",
+  "venue": {
+    "name": "arXiv preprint",
+    "short": "arXiv",
+    "year": 2026,
+    "status": "preprint"
+  },
+  "themes": [
+    "embodied"
+  ],
+  "selected": false,
+  "rank": 220,
+  "tldr": "Recovers a full 6-DoF object pose from one tactile contact, with no visual input at all.",
+  "media": {
+    "teaser": "teaser.jpg",
+    "alt": "TODO",
+    "placeholder": false
+  },
+  "links": [
+    {
+      "type": "arxiv",
+      "url": "https://arxiv.org/abs/2606.28899"
+    }
+  ]
+}

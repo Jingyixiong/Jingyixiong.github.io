@@ -1,0 +1,31 @@
+{
+  "slug": "bridgenet",
+  "title": "Segmentation of Large-Scale Masonry Arch Bridge Point Clouds with a Synthetic Simulator and the BridgeNet Neural Network",
+  "short_title": "BridgeNet",
+  "authors": "**Y. Jing**, B. Sheil, S. Acikgoz",
+  "role": "first",
+  "venue": {
+    "name": "Automation in Construction 142, 104459",
+    "short": "AutCon",
+    "year": 2022,
+    "status": "journal"
+  },
+  "themes": [
+    "perception"
+  ],
+  "selected": true,
+  "rank": 60,
+  "tldr": "Where the whole thread starts: if you cannot label a country's bridges, simulate them instead.",
+  "media": {
+    "teaser": "teaser.jpg",
+    "alt": "TODO",
+    "placeholder": false
+  },
+  "links": [
+    {
+      "type": "paper",
+      "url": "https://doi.org/10.1016/j.autcon.2022.104459",
+      "label": "Paper"
+    }
+  ]
+}

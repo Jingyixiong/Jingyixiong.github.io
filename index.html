@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yixiong Jing — Physical AI for Infrastructure &amp; Robotics</title>
+<meta name="description" content="Yixiong Jing — Research Associate, University of Cambridge; Head of AI, InfraMind Labs. Physics-grounded learning for robust and trustworthy construction robotics.">
+<meta property="og:title" content="Yixiong Jing">
+<meta property="og:description" content="I look for the delicate balance between physics and learning that lets intelligence interact with the physical world. Research Associate, Cambridge · Head of AI, InfraMind Labs.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/headshot.jpg">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+<nav><div class="wrap">
+  <a class="brand" href="index.html">Yixiong Jing</a>
+  <a class="nl" href="#news">News</a>
+  <a class="nl" href="#research">Research</a>
+  <a class="nl" href="#inframind">InfraMind</a>
+  <a class="nl keep" href="publications.html">Publications</a>
+  <a class="nl" href="#talks">Talks</a>
+  <a class="nl" href="#contact">Contact</a>
+  <button id="theme-toggle" title="Toggle dark mode" aria-label="Toggle dark mode">&#9686;</button>
+</div></nav>
+
+<div class="wrap">
+
+  <!-- ===================================================================
+       HERO — prose. Edit the bio here; it is intentionally in HTML rather
+       than a data file so search engines and screen readers see it.
+       =================================================================== -->
+  <section id="home" class="hero">
+    <div>
+      <img class="hero-photo" src="assets/img/headshot.jpg" alt="Yixiong Jing">
+      <div class="ilinks">
+        <a href="mailto:yj401@cam.ac.uk">Email</a><span>&middot;</span>
+        <a href="https://scholar.google.com/citations?user=g7NWlqcAAAAJ&amp;hl=en">Scholar</a><span>&middot;</span>
+        <a href="https://github.com/Jingyixiong">GitHub</a><span>&middot;</span>
+        <a href="https://www.linkedin.com/in/yixiong-jing-806a231a9/">LinkedIn</a><span>&middot;</span>
+        <a href="assets/cv.pdf">CV</a>
+      </div>
+    </div>
+    <div>
+      <h1>Yixiong Jing</h1>
+      <div class="roles">
+        <div>Research Associate, <span class="org">Department of Engineering, University of Cambridge</span></div>
+        <div>Head of AI, <span class="org">InfraMind Labs</span></div>
+      </div>
+      <p class="lead">I look for the delicate balance between physics and learning that lets
+      intelligence interact with the physical world.</p>
+
+      <p>My work treats physics as a set of constraints that models should <em>obey</em>. I study how
+      differentiable simulation, energy-based dynamics, and world models can be integrated to keep
+      perception, prediction, and action physically consistent, allowing models built from imperfect
+      real-world observations to behave like the physical systems they represent.</p>
+
+      <p>My long-term goal is <b>robust and trustworthy construction robotics</b>: machines that can
+      robustly inspect, assemble, and interact with the complex and dynamic built environment under
+      conditions not represented in their training data, with behaviour that engineers can understand
+      and rely on.</p>
+
+      <p>I am a Research Associate in the Department of Engineering at the University of Cambridge,
+      working with <a href="https://physicalai.build/team/brian/">Brian Sheil</a> at the Centre for
+      Smart Infrastructure and Construction and the Laing O&rsquo;Rourke Centre. I am also Head of AI
+      at <a href="https://inframindlabs.com/">InfraMind Labs</a>, a Techstars-backed start-up bringing
+      AI to infrastructure. At InfraMind, I lead the development of its AI algorithms. The methods I
+      developed during my PhD now form the core of the company&rsquo;s digital inspector, the first
+      system of its kind, which is currently being trialled by National Highways, Network Rail, and
+      Transport for London. I received my DPhil from the University of Oxford in 2025 under the
+      supervision of <a href="https://msinanacikgoz.wixsite.com/sinanacikgoz/group">Sinan Acikgoz</a>
+      and Brian Sheil. I also co-supervise research students through collaborations with Oxford, TUM,
+      MIT, Harvard, and PolyU.</p>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       NEWS — rendered from data/content.js. Do not edit here.
+       =================================================================== -->
+  <section id="news">
+    <h2>News</h2>
+    <dl class="news" id="news-list"></dl>
+    <button class="linkish" id="news-toggle">+ show earlier</button>
+  </section>
+
+  <!-- ===================================================================
+       RESEARCH — prose, three themes. Theme figures are placeholders:
+       replace assets/research/<theme>.jpg with your own image.
+       =================================================================== -->
+  <section id="research">
+    <h2>Research</h2>
+
+    <div class="themes">
+      <div class="theme">
+        <span class="tag perception">Perception</span>
+        <h3>3D Perception for Civil Infrastructure</h3>
+        <p class="small">Inspecting every bridge and tunnel across a country by hand is simply impractical. I develop an end-to-end pipeline that uses deep learning to segment large-scale infrastructure point clouds into structural components, then applies unsupervised learning to identify geometric anomalies indicative of defects without labelled defect data. Designed for surveys containing hundreds of millions of points, the pipeline has been commercialised and now supports <a href="https://inframindlabs.com/" target="_blank" rel="noopener noreferrer">InfraMind Labs&rsquo;</a> digital inspection product line.</p>
+      </div>
+
+      <div class="theme">
+        <span class="tag physics">Physics</span>
+        <h3>Physics-Grounded Reconstruction &amp; World Models</h3>
+        <p class="small">A digital world is useful only if it behaves like the physical system it represents. I combine differentiable simulation, neural dynamics, system identification, and generative models to reconstruct physically consistent digital environments and build world models that preserve the behaviour of their real-world counterparts.</p>
+      </div>
+
+      <div class="theme">
+        <span class="tag embodied">Embodied</span>
+        <h3>Embodied Intelligence for Construction Robotics</h3>
+        <p class="small">Physically grounded world models can predict how objects will behave during interaction, but prediction alone is not enough. The next challenge is to enable robots to understand long-horizon tasks and translate the reasoning capabilities of large language models into robust physical action. I explore multimodal systems that combine RGB images, point clouds, and tactile sensing to ground robotic planning and manipulation in scene geometry, predicted mechanical behaviour, and real-time physical feedback.</p>
+      </div>
+    </div>
+
+    <div class="spine">One question in three settings: <b>what physical state is consistent with what
+    I can sense?</b> &mdash; first for structures that must be measured, then for objects that must be
+    simulated, now for robots that must act.</div>
+  </section>
+</div>
+
+<!-- =====================================================================
+     INFRAMIND — the differentiator band. Prose; edit in place.
+     ===================================================================== -->
+<div class="band" id="inframind"><div class="wrap">
+  <h2>Research &rarr; Deployment</h2>
+  <h3 style="font-size:1.3rem; letter-spacing:-.02em">
+    Head of AI, <a href="https://inframindlabs.com/">InfraMind Labs</a>
+  </h3>
+  <p>InfraMind turns LiDAR, imagery and inspection records into risk-ranked engineering decisions —
+  described by its investors as MRI scans for bridges, tunnels and buildings. The company grew out of
+  this line of research at Cambridge with Brian Sheil, launched in 2024 out of Techstars, and is
+  backed by Fuel Ventures. I lead the AI function: a strong team with good researchers and engineers, and the
+  end-to-end industrial pipeline for infrastructure inspection and monitoring.</p>
+
+  <!-- <div class="stats">
+    <div class="stat"><b>9</b><span>researchers and engineers in the AI team</span></div>
+    <div class="stat"><b>weeks &rarr; hours</b><span>manual tunnel review compressed to AI-quantified findings</span></div>
+    <div class="stat"><b>800 m</b><span>masonry tunnel digitised for National Highways</span></div>
+  </div> -->
+
+  <div class="shots">
+    <figure class="wide">
+      <img src="assets/img/inframind-platform.webp" width="1600" height="629" loading="lazy"
+           alt="InfraMind platform viewer showing a full tunnel scan as a 3D point cloud with AI-detected defects highlighted, alongside the lining unrolled into flat chainage strips">
+      <figcaption>The platform: an entire tunnel got cut as multiple single point clouds, with detected
+      defects overlaid and the lining unrolled to chainage for inspection.</figcaption>
+    </figure>
+    <figure class="tall">
+      <img src="assets/img/inframind-defect.webp" width="1200" height="708" loading="lazy"
+           alt="Close-up of a masonry tunnel lining point cloud with regions of spalling and mortar loss segmented in orange">
+      <figcaption>Detail view: defects segmented directly on the masonry lining,
+      brick by brick.</figcaption>
+    </figure>
+  </div>
+
+  <p class="small deployment-copy"><b>From paper to product.</b> The synthetic-data
+  segmentation pipeline behind BridgeNet and Tunnel Scanner is what lets the platform label an asset
+  it has never seen before; the unsupervised anomaly detection behind 3D-Multi-FPFHI is what lets it
+  flag a defect nobody has labelled.</p>
+  <p class="clients">Deployed with <b>Jacobs</b> &middot; <b>National Highways</b> &middot;
+  <b>Transport for London</b> &middot; <b>Network Rail</b></p>
+</div></div>
+
+<div class="wrap">
+
+  <!-- ===================================================================
+       SELECTED PUBLICATIONS — rendered from data/publications.js.
+       Full archive lives on publications.html.
+       =================================================================== -->
+  <section id="publications">
+    <h2>Selected Publications</h2>
+    <div id="home-pubs"></div>
+    <p class="small" style="margin-top:24px">
+      <a href="publications.html">All publications &rarr;</a>
+    </p>
+  </section>
+
+  <!-- ===================================================================
+       TALKS &amp; SERVICE — rendered from data/content.js.
+       =================================================================== -->
+  <section id="talks">
+    <h2>Talks &amp; Service</h2>
+    <h4>Invited talks</h4>
+    <div class="rows" id="talks-list" style="margin-bottom:26px"></div>
+    <h4>Service</h4>
+    <div class="rows" id="service-list"></div>
+  </section>
+
+  <!-- =================================================================== -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p class="small">Department of Engineering, University of Cambridge<br>
+      <a href="mailto:yj401@cam.ac.uk">yj401@cam.ac.uk</a> &middot;
+      <a href="mailto:jyx.civil@gmail.com">jyx.civil@gmail.com</a></p>
+    <p class="small muted">Open to collaborations on physics-grounded 3D learning, embodied
+      manipulation and infrastructure AI — and always interested in strong people for the InfraMind
+      AI team.</p>
+  </section>
+
+  <footer>
+    &copy; 2026 Yixiong Jing &middot;
+    <a href="https://scholar.google.com/citations?user=g7NWlqcAAAAJ&amp;hl=en">Scholar</a> &middot;
+    <a href="https://github.com/Jingyixiong">GitHub</a> &middot;
+    <a href="https://www.researchgate.net/profile/Yixiong_Jing2">ResearchGate</a> &middot;
+    <a href="https://inframindlabs.com/">InfraMind Labs</a>
+    <br>Last updated August 2026
+  </footer>
+</div>
+
+<script src="data/content.js"></script>
+<script src="data/publications.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/render.js"></script>
+<script>
+  Render.news('news-list', 5);
+  Render.selected('home-pubs');
+  Render.talks('talks-list');
+  Render.service('service-list');
+</script>
+</body>
+</html>

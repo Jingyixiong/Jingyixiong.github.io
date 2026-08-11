@@ -1,0 +1,37 @@
+{
+  "slug": "underonefacade",
+  "title": "UnderOneFacade: Worldwide Facade Semantic Segmentation Benchmark Dataset",
+  "short_title": "UnderOneFacade",
+  "authors": "Y. Wang, F. Wang, P. Gyawali, Z. Xu, A. Klimkowska, **Y. Jing**, W. Yang, F. Biljecki, C. Holst, B. Busam, B. Sheil, O. Wysocki",
+  "role": "contributing",
+  "venue": {
+    "name": "European Conference on Computer Vision (ECCV)",
+    "short": "ECCV",
+    "year": 2026,
+    "status": "conference"
+  },
+  "themes": [
+    "perception"
+  ],
+  "selected": false,
+  "rank": 210,
+  "is_dataset": true,
+  "tldr": "The first facade segmentation benchmark that spans cities, continents and capture modalities.",
+  "media": {
+    "teaser": "teaser.png",
+    "alt": "TODO",
+    "placeholder": false
+  },
+  "links": [
+    {
+      "type": "arxiv",
+      "url": "https://arxiv.org/abs/2607.02018",
+      "label": "arXiv"
+    },
+    {
+      "type": "data",
+      "url": "https://drive.google.com/drive/folders/1Yzz7PmyeK1qeOtkTFCfkbw7IEHXcMJo8",
+      "label": "Data"
+    }
+  ]
+}
