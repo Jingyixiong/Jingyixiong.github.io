@@ -2,7 +2,7 @@
   "slug": "nexus",
   "title": "NEXUS: Neural Energy Fields for Physically Consistent Contact-Rich 3D Object Dynamics",
   "short_title": "NEXUS",
-  "authors": "Q. Ying, G. Wang, Y. Pan, V. A. Prisacariu, B. Sheil, **Y. Jing†**",
+  "authors": "Q. Ying, Y. Pan, G. Wang, V. A. Prisacariu, B. Sheil, **Y. Jing†**",
   "role": "corresponding",
   "venue": {
     "name": "arXiv preprint",

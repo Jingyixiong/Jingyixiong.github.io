@@ -2,7 +2,7 @@
   "slug": "roboflow4d",
   "title": "RoboFlow4D: A Lightweight Flow World Model toward Real-Time Flow-Guided Robotic Manipulation",
   "short_title": "RoboFlow4D",
-  "authors": "S. Lin, H. Xu, J. Chen, Z. Li, G. Wang, **Y. Jing**, S. Xu, R. Zhao, B. Sheil, L.-P. Chau, G. Liu",
+  "authors": "S. Lin, J. Chen, H. Xu, Z. Li, G. Wang, **Y. Jing**, S. Xu, R. Zhao, B. Sheil, L.-P. Chau, G. Liu",
   "role": "contributing",
   "venue": {
     "name": "International Conference on Machine Learning (ICML)",
@@ -22,6 +22,11 @@
     "placeholder": false
   },
   "links": [
+    {
+      "type": "project",
+      "url": "https://simonlinsx.github.io/RoboFlow4D_Page/",
+      "label": "Project"
+    },
     {
       "type": "arxiv",
       "url": "https://arxiv.org/abs/2605.17522",

@@ -38,7 +38,7 @@ window.PUBLICATIONS = [
     "slug": "bendtwin",
     "title": "BendTwin: Robust Dense-to-Sparse Physical Reconstruction with Bending-Aware Differentiable Spring–Mass Models",
     "short_title": "BendTwin",
-    "authors": "**Y. Jing**, L. Chen, J. Jiang, G. Wang, W. Ma, H. Wu, O. Wysocki, B. Sheil",
+    "authors": "**Y. Jing**, Q. Wang, L. Chen, J. Jiang, G. Wang, H. Wu, O. Wysocki, W. Ma, B. Sheil",
     "role": "first",
     "venue": {
       "name": "arXiv preprint",
@@ -52,7 +52,7 @@ window.PUBLICATIONS = [
     "selected": true,
     "rank": 10,
     "is_new": true,
-    "page": true,
+    "page": false,
     "tldr": "Makes bending stiffness differentiable so simulation-ready physical twins survive sparse, noisy video observations.",
     "abstract": "TODO — paste the BendTwin abstract here. This field is required because \"page\": true is set, which generates papers/bendtwin/index.html.",
     "media": {
@@ -75,7 +75,7 @@ window.PUBLICATIONS = [
     "slug": "nexus",
     "title": "NEXUS: Neural Energy Fields for Physically Consistent Contact-Rich 3D Object Dynamics",
     "short_title": "NEXUS",
-    "authors": "Q. Ying, G. Wang, Y. Pan, V. A. Prisacariu, B. Sheil, **Y. Jing†**",
+    "authors": "Q. Ying, Y. Pan, G. Wang, V. A. Prisacariu, B. Sheil, **Y. Jing†**",
     "role": "corresponding",
     "venue": {
       "name": "arXiv preprint",
@@ -144,7 +144,7 @@ window.PUBLICATIONS = [
     "slug": "roboflow4d",
     "title": "RoboFlow4D: A Lightweight Flow World Model toward Real-Time Flow-Guided Robotic Manipulation",
     "short_title": "RoboFlow4D",
-    "authors": "S. Lin, H. Xu, J. Chen, Z. Li, G. Wang, **Y. Jing**, S. Xu, R. Zhao, B. Sheil, L.-P. Chau, G. Liu",
+    "authors": "S. Lin, J. Chen, H. Xu, Z. Li, G. Wang, **Y. Jing**, S. Xu, R. Zhao, B. Sheil, L.-P. Chau, G. Liu",
     "role": "contributing",
     "venue": {
       "name": "International Conference on Machine Learning (ICML)",
@@ -164,6 +164,11 @@ window.PUBLICATIONS = [
       "placeholder": false
     },
     "links": [
+      {
+        "type": "project",
+        "url": "https://simonlinsx.github.io/RoboFlow4D_Page/",
+        "label": "Project"
+      },
       {
         "type": "arxiv",
         "url": "https://arxiv.org/abs/2605.17522",
@@ -210,7 +215,7 @@ window.PUBLICATIONS = [
     "slug": "underonefacade",
     "title": "UnderOneFacade: Worldwide Facade Semantic Segmentation Benchmark Dataset",
     "short_title": "UnderOneFacade",
-    "authors": "Y. Wang, F. Wang, P. Gyawali, Z. Xu, A. Klimkowska, **Y. Jing**, W. Yang, F. Biljecki, C. Holst, B. Busam, B. Sheil, O. Wysocki",
+    "authors": "Y. Wang, F. Wang, W. Yang, P. Gyawali, Z. Xu, A. Klimkowska, **Y. Jing**, F. Biljecki, C. Holst, B. Busam, B. Sheil, O. Wysocki",
     "role": "contributing",
     "venue": {
       "name": "European Conference on Computer Vision (ECCV)",
@@ -231,6 +236,11 @@ window.PUBLICATIONS = [
       "placeholder": false
     },
     "links": [
+      {
+        "type": "project",
+        "url": "https://jiangyuanwangyi.github.io/UnderOneFacade_official/",
+        "label": "Project"
+      },
       {
         "type": "arxiv",
         "url": "https://arxiv.org/abs/2607.02018",

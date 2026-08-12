@@ -2,7 +2,7 @@
   "slug": "bendtwin",
   "title": "BendTwin: Robust Dense-to-Sparse Physical Reconstruction with Bending-Aware Differentiable Spring–Mass Models",
   "short_title": "BendTwin",
-  "authors": "**Y. Jing**, L. Chen, J. Jiang, G. Wang, W. Ma, H. Wu, O. Wysocki, B. Sheil",
+  "authors": "**Y. Jing**, Q. Wang, L. Chen, J. Jiang, G. Wang, H. Wu, O. Wysocki, W. Ma, B. Sheil",
   "role": "first",
   "venue": {
     "name": "arXiv preprint",
@@ -16,7 +16,7 @@
   "selected": true,
   "rank": 10,
   "is_new": true,
-  "page": true,
+  "page": false,
   "tldr": "Makes bending stiffness differentiable so simulation-ready physical twins survive sparse, noisy video observations.",
   "abstract": "TODO — paste the BendTwin abstract here. This field is required because \"page\": true is set, which generates papers/bendtwin/index.html.",
   "media": {

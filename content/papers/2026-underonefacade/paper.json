@@ -2,7 +2,7 @@
   "slug": "underonefacade",
   "title": "UnderOneFacade: Worldwide Facade Semantic Segmentation Benchmark Dataset",
   "short_title": "UnderOneFacade",
-  "authors": "Y. Wang, F. Wang, P. Gyawali, Z. Xu, A. Klimkowska, **Y. Jing**, W. Yang, F. Biljecki, C. Holst, B. Busam, B. Sheil, O. Wysocki",
+  "authors": "Y. Wang, F. Wang, W. Yang, P. Gyawali, Z. Xu, A. Klimkowska, **Y. Jing**, F. Biljecki, C. Holst, B. Busam, B. Sheil, O. Wysocki",
   "role": "contributing",
   "venue": {
     "name": "European Conference on Computer Vision (ECCV)",
@@ -23,6 +23,11 @@
     "placeholder": false
   },
   "links": [
+    {
+      "type": "project",
+      "url": "https://jiangyuanwangyi.github.io/UnderOneFacade_official/",
+      "label": "Project"
+    },
     {
       "type": "arxiv",
       "url": "https://arxiv.org/abs/2607.02018",
