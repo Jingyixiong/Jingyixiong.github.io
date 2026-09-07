@@ -15,6 +15,12 @@
 window.SITE = {
 
   news: [
+    { date: 'Sep 2026',
+      text: 'I&rsquo;m co-organizing <b><a href="https://twin-world.github.io/">TwinWorld: Visual Intelligence for Built Environment Digital Twins</a></b> ' +
+            'at <b>ECCV 2026</b>, taking place on <b>8 September in Malm&ouml;, Sweden</b>. ' +
+            'The workshop brings together researchers working on 3D/4D reconstruction, semantic scene understanding, ' +
+            'and real-world digital twins. Join us in Malm&ouml;!' },
+
     { date: 'Aug 2026',
       text: '<b><a href="https://arxiv.org/abs/2608.06164">BendTwin</a></b> is on arXiv — bending-aware differentiable spring&ndash;mass models for ' +
             'dense-to-sparse physical reconstruction.' },
@@ -62,6 +68,10 @@ window.SITE = {
   ],
 
   service: [
+    { label: 'Workshop co-organizer',
+      body:  '<a href="https://twin-world.github.io/">TwinWorld: Visual Intelligence for Built Environment Digital Twins</a>, ' +
+             'ECCV 2026 &middot; 8 September 2026 &middot; Malm&ouml;, Sweden.' },
+
     { label: 'Journal reviewer',
       body:  'Automation in Construction &middot; Underground Space &middot; ISPRS Journal of ' +
              'Photogrammetry and Remote Sensing &middot; Journal of Computing in Civil Engineering ' +
