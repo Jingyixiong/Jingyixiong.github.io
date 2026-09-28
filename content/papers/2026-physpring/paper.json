@@ -5,10 +5,10 @@
   "authors": "**Y. Jing**, X. Chen, G. Wang, O. Wysocki, H. Wu, B. Sheil",
   "role": "first",
   "venue": {
-    "name": "arXiv preprint",
-    "short": "arXiv",
+    "name": "NeurIPS Main Track",
+    "short": "NeurIPS 2026 Main Track",
     "year": 2026,
-    "status": "preprint"
+    "status": "conference"
   },
   "themes": [
     "physics"

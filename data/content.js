@@ -8,13 +8,29 @@
 
    Rules:
    - `news[].text` may contain <b> and <a> tags.
-   - Newest news first. The homepage shows the first 4 and
+   - Newest news first. The homepage shows the first 5 and
      reveals the rest behind "+ show earlier".
    ============================================================ */
 
 window.SITE = {
 
   news: [
+    { date: 'Sep 2026',
+      text: 'Three papers accepted to the <b>NeurIPS 2026 Main Track</b>: ' +
+            '<b><a href="https://arxiv.org/abs/2606.15015">NEXUS</a></b>, ' +
+            '<b><a href="https://arxiv.org/abs/2605.07687">PhySPRING</a></b>, and ' +
+            '<b>GauGal: Gaussian-Galerkin Electromagnetic Inverse Scattering Imaging</b>.' },
+
+    { date: 'Sep 2026',
+      text: '<b><a href="https://arxiv.org/abs/2609.27675">Track2Art</a></b> is on arXiv: ' +
+            'recovering articulated object parts, kinematic relations, and joint axes from ' +
+            'visual-geometric tracks in interaction videos.' },
+
+    { date: 'Sep 2026',
+      text: '<b><a href="https://arxiv.org/abs/2609.05985">A Brain-inspired Hierarchical Framework for Zero-Shot Robot Task Reasoning and Execution</a></b> ' +
+            'is on arXiv. As corresponding author, I explore how explicit object-state reasoning and ' +
+            'reusable atomic actions connect language instructions to real-robot execution.' },
+
     { date: 'Sep 2026',
       text: 'I&rsquo;m co-organizing <b><a href="https://twin-world.github.io/">TwinWorld: Visual Intelligence for Built Environment Digital Twins</a></b> ' +
             'at <b>ECCV 2026</b>, taking place on <b>8 September in Malm&ouml;, Sweden</b>. ' +

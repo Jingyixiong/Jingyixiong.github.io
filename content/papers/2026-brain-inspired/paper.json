@@ -1,0 +1,27 @@
+{
+  "slug": "brain-inspired",
+  "title": "A Brain-inspired Hierarchical Framework for Zero-Shot Robot Task Reasoning and Execution",
+  "short_title": "Brain-inspired Robot Reasoning",
+  "authors": "G. Wang, P. Ye, Q. Ying, **Y. Jing†**, Y. Ma, H. Chen, H. Wu, O. Wysocki, M. Duan, B. Sheil",
+  "role": "corresponding",
+  "venue": {
+    "name": "arXiv preprint",
+    "short": "arXiv",
+    "year": 2026,
+    "status": "preprint"
+  },
+  "themes": ["embodied"],
+  "selected": true,
+  "rank": 7,
+  "is_new": true,
+  "page": false,
+  "tldr": "Connects language instructions to zero-shot robot execution through explicit object-state reasoning, reusable atomic actions, and closed-loop verification.",
+  "media": {
+    "teaser": "teaser.png",
+    "alt": "Brain-inspired hierarchical robot control: language-guided tasks, visual state inference, action generation and plan selection, with real-robot block stacking and whiteboard erasing.",
+    "placeholder": false
+  },
+  "links": [
+    { "type": "arxiv", "url": "https://arxiv.org/abs/2609.05985" }
+  ]
+}

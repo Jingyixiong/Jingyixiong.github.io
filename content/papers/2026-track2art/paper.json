@@ -1,0 +1,28 @@
+{
+  "slug": "track2art",
+  "title": "Track2Art: Articulated Object Model Recovery with Visual-Geometric Track Representations",
+  "short_title": "Track2Art",
+  "authors": "X. Li∗, **Y. Jing∗**, J. Ding, W. Li, B. Busam, G. Wang†, B. Sheil",
+  "role": "first",
+  "venue": {
+    "name": "arXiv preprint",
+    "short": "arXiv",
+    "year": 2026,
+    "status": "preprint"
+  },
+  "themes": ["perception"],
+  "selected": true,
+  "rank": 5,
+  "is_new": true,
+  "page": false,
+  "tldr": "Uses visual-geometric tracks from RGB-D interaction videos to discover rigid parts and recover kinematic relations, joint types, and joint axes.",
+  "media": {
+    "teaser": "teaser.png",
+    "teaser_video": "teaser.mp4",
+    "alt": "Track2Art demonstration of articulated object part segmentation and joint-axis recovery from tracked motion in interaction videos.",
+    "placeholder": false
+  },
+  "links": [
+    { "type": "arxiv", "url": "https://arxiv.org/abs/2609.27675" }
+  ]
+}
