@@ -71,10 +71,21 @@
     } else {
       out += '<span class="badge">' + esc(p.venue.short) + '</span>';
     }
+    if (p.workshop) {
+      out += '<span class="badge workshop-badge">' + esc(p.workshop.badge) + '</span>';
+    }
     if (p.venue.status === 'dataset' || p.is_dataset) {
       out += '<span class="badge">Dataset</span>';
     }
     return out;
+  }
+
+  function workshopNote(p) {
+    if (!p.workshop) return '';
+    var w = p.workshop;
+    return '<div class="workshop-note">' + esc(w.presentation) + ' at ' +
+      '<a href="' + esc(w.url) + '" target="_blank" rel="noopener">' + esc(w.name) + '</a>' +
+      (w.non_archival ? ' — non-archival workshop.' : '.') + '</div>';
   }
 
   function buttons(p) {
@@ -119,6 +130,7 @@
           '<h3>' + title + badges(p) + '</h3>' +
           '<div class="authors">' + md(p.authors) + '</div>' +
           '<div class="venue">' + esc(p.venue.name) + ', ' + p.venue.year + '</div>' +
+          workshopNote(p) +
           (p.tldr ? '<p class="tldr">' + esc(p.tldr) + '</p>' : '') +
           buttons(p) +
         '</div>' +

@@ -16,6 +16,11 @@ window.SITE = {
 
   news: [
     { date: 'Sep 2026',
+      text: '<b><a href="https://arxiv.org/abs/2608.06164">BendTwin</a></b> has been accepted to the ' +
+            '<b><a href="https://sites.google.com/view/neurips-2026-workshop-pudm">NeurIPS 2026 Workshop on Physical Understanding for Decision-Making (PUDM)</a></b> ' +
+            'and selected for an <b>oral presentation</b>!' },
+
+    { date: 'Sep 2026',
       text: 'Three papers accepted to the <b>NeurIPS 2026 Main Track</b>: ' +
             '<b><a href="https://arxiv.org/abs/2606.15015">NEXUS</a></b>, ' +
             '<b><a href="https://arxiv.org/abs/2605.07687">PhySPRING</a></b>, and ' +

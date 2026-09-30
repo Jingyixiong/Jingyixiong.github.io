@@ -104,6 +104,22 @@ for d in sorted(PAPERS.iterdir(), reverse=True):
         fail(f"{d.name}: venue.year is required")
     venue.setdefault("short", venue.get("name", "")[:12])
 
+    # -- optional workshop recognition, separate from the publication venue
+    if "workshop" in p:
+        workshop = p["workshop"]
+        if not isinstance(workshop, dict):
+            fail(f"{d.name}: workshop must be an object")
+        else:
+            for key in ("badge", "name", "url", "presentation"):
+                value = workshop.get(key)
+                if not isinstance(value, str) or not value.strip():
+                    fail(f"{d.name}: workshop.{key} must be a non-empty string")
+            url = workshop.get("url")
+            if isinstance(url, str) and not url.startswith(("https://", "http://")):
+                fail(f"{d.name}: workshop.url must be an HTTP(S) URL")
+            if not isinstance(workshop.get("non_archival"), bool):
+                fail(f"{d.name}: workshop.non_archival must be true or false")
+
     # -- media
     media = p.setdefault("media", {})
     media.setdefault("teaser", "teaser.jpg")

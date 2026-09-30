@@ -111,6 +111,7 @@ html[data-theme="dark"] .filters button[aria-pressed="true"]{color:#0e1013}
 }
 .pub .authors{font-size:14px; color:var(--muted); margin:2px 0 6px}
 .pub .venue{font-size:14px; color:var(--muted)}
+.pub .workshop-note{font-size:14px; color:var(--muted); margin-top:3px}
 .pub .tldr{font-size:14.5px; margin:8px 0 0; max-width:66ch}
 
 .badge{
@@ -120,6 +121,7 @@ html[data-theme="dark"] .filters button[aria-pressed="true"]{color:#0e1013}
   margin-left:7px; vertical-align:1px; white-space:nowrap;
 }
 .badge.outline{background:transparent; border:1px solid var(--line); color:var(--muted)}
+.badge.workshop-badge{max-width:calc(100% - 7px); white-space:normal}
 .badge.new{background:var(--accent); color:#fff}
 html[data-theme="dark"] .badge.new{color:#0e1013}
 @media (prefers-color-scheme:dark){

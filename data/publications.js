@@ -81,6 +81,13 @@ window.PUBLICATIONS = [
       "year": 2026,
       "status": "preprint"
     },
+    "workshop": {
+      "badge": "NeurIPS 2026 Workshop · Oral",
+      "name": "Physical Understanding for Decision-Making (PUDM)",
+      "url": "https://sites.google.com/view/neurips-2026-workshop-pudm",
+      "presentation": "Accepted for oral presentation",
+      "non_archival": true
+    },
     "themes": [
       "physics"
     ],
