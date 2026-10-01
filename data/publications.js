@@ -114,6 +114,46 @@ window.PUBLICATIONS = [
     "dir": "content/papers/2026-bendtwin"
   },
   {
+    "slug": "gaugal",
+    "title": "GauGal: Gaussian-Galerkin Electromagnetic Inverse Scattering Imaging",
+    "short_title": "GauGal",
+    "authors": "H. Wu, **Y. Jing†**, G. Wang, O. Wysocki, B. Sheil",
+    "role": "corresponding",
+    "venue": {
+      "name": "NeurIPS Main Track",
+      "short": "NeurIPS 2026 Main Track",
+      "year": 2026,
+      "status": "conference"
+    },
+    "themes": [
+      "physics"
+    ],
+    "selected": true,
+    "rank": 4,
+    "is_new": true,
+    "page": false,
+    "tldr": "Recovers material permittivity from scattered electromagnetic fields using a compact Gaussian–Galerkin solver, enabling fast, physics-consistent imaging without dataset training.",
+    "media": {
+      "teaser": "teaser.png",
+      "alt": "GauGal overview: adjoint reconstruction loop, Gaussian material-field interactions, source and receiver mappings, and a Gaussian–Galerkin projected scattering solver.",
+      "placeholder": false
+    },
+    "links": [
+      {
+        "type": "project",
+        "url": "https://gaugal-project-page.hw657.workers.dev/",
+        "label": "Project"
+      },
+      {
+        "type": "paper",
+        "url": "https://gaugal-project-page.hw657.workers.dev/GauGal.pdf",
+        "label": "Paper"
+      }
+    ],
+    "bibtex": null,
+    "dir": "content/papers/2026-gaugal"
+  },
+  {
     "slug": "nexus",
     "title": "NEXUS: Neural Energy Fields for Physically Consistent Contact-Rich 3D Object Dynamics",
     "short_title": "NEXUS",

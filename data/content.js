@@ -24,7 +24,7 @@ window.SITE = {
       text: 'Three papers accepted to the <b>NeurIPS 2026 Main Track</b>: ' +
             '<b><a href="https://arxiv.org/abs/2606.15015">NEXUS</a></b>, ' +
             '<b><a href="https://arxiv.org/abs/2605.07687">PhySPRING</a></b>, and ' +
-            '<b>GauGal: Gaussian-Galerkin Electromagnetic Inverse Scattering Imaging</b>.' },
+            '<b><a href="https://gaugal-project-page.hw657.workers.dev/">GauGal: Gaussian-Galerkin Electromagnetic Inverse Scattering Imaging</a></b>.' },
 
     { date: 'Sep 2026',
       text: '<b><a href="https://arxiv.org/abs/2609.27675">Track2Art</a></b> is on arXiv: ' +
