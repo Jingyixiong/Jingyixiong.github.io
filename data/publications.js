@@ -105,6 +105,11 @@ window.PUBLICATIONS = [
     "gallery": [],
     "links": [
       {
+        "type": "project",
+        "url": "https://qiwang067.github.io/bendtwin",
+        "label": "Project"
+      },
+      {
         "type": "arxiv",
         "url": "https://arxiv.org/abs/2608.06164",
         "label": "arXiv"

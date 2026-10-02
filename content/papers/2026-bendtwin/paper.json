@@ -34,6 +34,10 @@
   "gallery": [],
   "links": [
     {
+      "type": "project",
+      "url": "https://qiwang067.github.io/bendtwin"
+    },
+    {
       "type": "arxiv",
       "url": "https://arxiv.org/abs/2608.06164"
     }

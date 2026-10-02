@@ -16,7 +16,7 @@ window.SITE = {
 
   news: [
     { date: 'Sep 2026',
-      text: '<b><a href="https://arxiv.org/abs/2608.06164">BendTwin</a></b> has been accepted to the ' +
+      text: '<b><a href="https://qiwang067.github.io/bendtwin">BendTwin</a></b> has been accepted to the ' +
             '<b><a href="https://sites.google.com/view/neurips-2026-workshop-pudm">NeurIPS 2026 Workshop on Physical Understanding for Decision-Making (PUDM)</a></b> ' +
             'and selected for an <b>oral presentation</b>!' },
 
@@ -43,7 +43,7 @@ window.SITE = {
             'and real-world digital twins. Join us in Malm&ouml;!' },
 
     { date: 'Aug 2026',
-      text: '<b><a href="https://arxiv.org/abs/2608.06164">BendTwin</a></b> is on arXiv — bending-aware differentiable spring&ndash;mass models for ' +
+      text: '<b><a href="https://qiwang067.github.io/bendtwin">BendTwin</a></b> is on arXiv — bending-aware differentiable spring&ndash;mass models for ' +
             'dense-to-sparse physical reconstruction.' },
 
     { date: 'Jul 2026',
