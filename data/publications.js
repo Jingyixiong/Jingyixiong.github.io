@@ -293,6 +293,11 @@ window.PUBLICATIONS = [
     },
     "links": [
       {
+        "type": "project",
+        "url": "https://track2art.github.io/",
+        "label": "Project"
+      },
+      {
         "type": "arxiv",
         "url": "https://arxiv.org/abs/2609.27675",
         "label": "arXiv"

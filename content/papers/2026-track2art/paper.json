@@ -23,6 +23,7 @@
     "placeholder": false
   },
   "links": [
+    { "type": "project", "url": "https://track2art.github.io/" },
     { "type": "arxiv", "url": "https://arxiv.org/abs/2609.27675" }
   ]
 }
