@@ -40,6 +40,10 @@
     {
       "type": "arxiv",
       "url": "https://arxiv.org/abs/2608.06164"
+    },
+    {
+      "type": "code",
+      "url": "https://github.com/qiwang067/BendTwin"
     }
   ]
 }

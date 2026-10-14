@@ -113,6 +113,11 @@ window.PUBLICATIONS = [
         "type": "arxiv",
         "url": "https://arxiv.org/abs/2608.06164",
         "label": "arXiv"
+      },
+      {
+        "type": "code",
+        "url": "https://github.com/qiwang067/BendTwin",
+        "label": "Code"
       }
     ],
     "bibtex": null,
