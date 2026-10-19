@@ -223,6 +223,11 @@ window.PUBLICATIONS = [
     },
     "links": [
       {
+        "type": "project",
+        "url": "https://merealtea.github.io/PhySpringWeb/",
+        "label": "Project"
+      },
+      {
         "type": "arxiv",
         "url": "https://arxiv.org/abs/2605.07687",
         "label": "arXiv"

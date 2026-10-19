@@ -23,6 +23,10 @@
   },
   "links": [
     {
+      "type": "project",
+      "url": "https://merealtea.github.io/PhySpringWeb/"
+    },
+    {
       "type": "arxiv",
       "url": "https://arxiv.org/abs/2605.07687"
     }
