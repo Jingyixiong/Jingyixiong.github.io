@@ -1,0 +1,27 @@
+{
+  "slug": "physslam",
+  "title": "Physical SLAM: Physics-aware Simultaneous Localisation and Mapping",
+  "short_title": "PhysSLAM",
+  "authors": "G. Wang∗, Z. Liu∗, H. Wu†, W. Ma, **Y. Jing**, O. Wysocki, B. Sheil",
+  "role": "contributing",
+  "venue": {
+    "name": "arXiv preprint",
+    "short": "arXiv",
+    "year": 2026,
+    "status": "preprint"
+  },
+  "themes": ["embodied"],
+  "selected": false,
+  "rank": 200,
+  "is_new": true,
+  "page": false,
+  "tldr": "Reconstructs deformable objects from RGB-D observations by coupling 4D Gaussian mapping with spring-mass dynamics, supporting camera tracking and action-conditioned prediction.",
+  "media": {
+    "teaser": "teaser.png",
+    "alt": "Physical SLAM overview showing RGB-D observations, a reconstructed 4D Gaussian field, and physics-based prediction of deformable objects under external actions.",
+    "placeholder": false
+  },
+  "links": [
+    { "type": "arxiv", "url": "https://arxiv.org/abs/2610.17260" }
+  ]
+}

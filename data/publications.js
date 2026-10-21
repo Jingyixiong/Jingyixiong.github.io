@@ -238,6 +238,41 @@ window.PUBLICATIONS = [
     "dir": "content/papers/2026-physpring"
   },
   {
+    "slug": "physslam",
+    "title": "Physical SLAM: Physics-aware Simultaneous Localisation and Mapping",
+    "short_title": "PhysSLAM",
+    "authors": "G. Wang∗, Z. Liu∗, H. Wu†, W. Ma, **Y. Jing**, O. Wysocki, B. Sheil",
+    "role": "contributing",
+    "venue": {
+      "name": "arXiv preprint",
+      "short": "arXiv",
+      "year": 2026,
+      "status": "preprint"
+    },
+    "themes": [
+      "embodied"
+    ],
+    "selected": false,
+    "rank": 200,
+    "is_new": true,
+    "page": false,
+    "tldr": "Reconstructs deformable objects from RGB-D observations by coupling 4D Gaussian mapping with spring-mass dynamics, supporting camera tracking and action-conditioned prediction.",
+    "media": {
+      "teaser": "teaser.png",
+      "alt": "Physical SLAM overview showing RGB-D observations, a reconstructed 4D Gaussian field, and physics-based prediction of deformable objects under external actions.",
+      "placeholder": false
+    },
+    "links": [
+      {
+        "type": "arxiv",
+        "url": "https://arxiv.org/abs/2610.17260",
+        "label": "arXiv"
+      }
+    ],
+    "bibtex": null,
+    "dir": "content/papers/2026-physslam"
+  },
+  {
     "slug": "roboflow4d",
     "title": "RoboFlow4D: A Lightweight Flow World Model toward Real-Time Flow-Guided Robotic Manipulation",
     "short_title": "RoboFlow4D",
@@ -274,6 +309,42 @@ window.PUBLICATIONS = [
     ],
     "bibtex": "TODO: paste the BibTeX entry for this paper here.\nDelete this file if you do not want a BibTeX block on the project page.",
     "dir": "content/papers/2026-roboflow4d"
+  },
+  {
+    "slug": "swingrl",
+    "title": "SwingRL: Adaptive Observation Reinforcement Learning with World-Model Prediction for Cable-Suspended Hoisting Control",
+    "short_title": "SwingRL",
+    "authors": "G. Wang, X. Zhang, Y. Xin, W. Ma, J. Liu, Y. Ma, J. Ingham, H. Wu, **Y. Jing**, O. Wysocki, B. Sheil",
+    "role": "contributing",
+    "venue": {
+      "name": "arXiv preprint",
+      "short": "arXiv",
+      "year": 2026,
+      "status": "preprint"
+    },
+    "themes": [
+      "embodied"
+    ],
+    "selected": false,
+    "rank": 200,
+    "is_new": true,
+    "page": false,
+    "tldr": "Combines world-model state prediction with residual reinforcement learning and an anti-swing controller for precise cable-suspended hoisting under delayed observations and disturbances.",
+    "media": {
+      "teaser": "teaser.jpg",
+      "teaser_video": "teaser.mp4",
+      "alt": "SwingRL demonstration of a robot positioning a cable-suspended payload for precise insertion despite wind disturbances and delayed visual observations.",
+      "placeholder": false
+    },
+    "links": [
+      {
+        "type": "arxiv",
+        "url": "https://arxiv.org/abs/2609.33053",
+        "label": "arXiv"
+      }
+    ],
+    "bibtex": null,
+    "dir": "content/papers/2026-SwingRL"
   },
   {
     "slug": "track2art",

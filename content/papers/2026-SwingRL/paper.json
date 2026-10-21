@@ -1,0 +1,28 @@
+{
+  "slug": "swingrl",
+  "title": "SwingRL: Adaptive Observation Reinforcement Learning with World-Model Prediction for Cable-Suspended Hoisting Control",
+  "short_title": "SwingRL",
+  "authors": "G. Wang, X. Zhang, Y. Xin, W. Ma, J. Liu, Y. Ma, J. Ingham, H. Wu, **Y. Jing**, O. Wysocki, B. Sheil",
+  "role": "contributing",
+  "venue": {
+    "name": "arXiv preprint",
+    "short": "arXiv",
+    "year": 2026,
+    "status": "preprint"
+  },
+  "themes": ["embodied"],
+  "selected": false,
+  "rank": 200,
+  "is_new": true,
+  "page": false,
+  "tldr": "Combines world-model state prediction with residual reinforcement learning and an anti-swing controller for precise cable-suspended hoisting under delayed observations and disturbances.",
+  "media": {
+    "teaser": "teaser.jpg",
+    "teaser_video": "teaser.mp4",
+    "alt": "SwingRL demonstration of a robot positioning a cable-suspended payload for precise insertion despite wind disturbances and delayed visual observations.",
+    "placeholder": false
+  },
+  "links": [
+    { "type": "arxiv", "url": "https://arxiv.org/abs/2609.33053" }
+  ]
+}
