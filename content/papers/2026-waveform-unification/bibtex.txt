@@ -1,0 +1,8 @@
+@article{wu2026waveform,
+  title = {Waveform Unification for Enhancing Cross-Waveform Generalization in Learning-Based {GPR} Inversion},
+  author = {Wu, Haibing and Ma, Wanli and Jing, Yixiong and Wang, Guangming and Wysocki, Olaf and Sheil, Brian},
+  journal = {IEEE Transactions on Geoscience and Remote Sensing},
+  year = {2026},
+  doi = {10.1109/TGRS.2026.3746221},
+  url = {https://ieeexplore.ieee.org/document/11746074/}
+}

@@ -465,6 +465,41 @@ window.PUBLICATIONS = [
     "dir": "content/papers/2026-underonefacade"
   },
   {
+    "slug": "waveform-unification",
+    "title": "Waveform Unification for Enhancing Cross-Waveform Generalization in Learning-Based GPR Inversion",
+    "short_title": "Waveform Unification",
+    "authors": "H. Wu, W. Ma, **Y. Jing†**, G. Wang, O. Wysocki, B. Sheil",
+    "role": "corresponding",
+    "venue": {
+      "name": "IEEE Transactions on Geoscience and Remote Sensing",
+      "short": "IEEE TGRS",
+      "year": 2026,
+      "status": "journal"
+    },
+    "themes": [
+      "physics"
+    ],
+    "selected": false,
+    "rank": 200,
+    "is_new": true,
+    "page": false,
+    "tldr": "Standardises ground-penetrating radar scans to a common source waveform using physics-guided conversion, enabling existing inversion networks to generalise across unseen waveforms without retraining or fine-tuning.",
+    "media": {
+      "teaser": "teaser.png",
+      "alt": "Waveform Unification overview showing waveform-induced differences in radar scans, physics-guided conversion to a target waveform, and improved subsurface inversion using the same frozen network.",
+      "placeholder": false
+    },
+    "links": [
+      {
+        "type": "paper",
+        "url": "https://ieeexplore.ieee.org/document/11746074/",
+        "label": "Paper"
+      }
+    ],
+    "bibtex": "@article{wu2026waveform,\n  title = {Waveform Unification for Enhancing Cross-Waveform Generalization in Learning-Based {GPR} Inversion},\n  author = {Wu, Haibing and Ma, Wanli and Jing, Yixiong and Wang, Guangming and Wysocki, Olaf and Sheil, Brian},\n  journal = {IEEE Transactions on Geoscience and Remote Sensing},\n  year = {2026},\n  doi = {10.1109/TGRS.2026.3746221},\n  url = {https://ieeexplore.ieee.org/document/11746074/}\n}",
+    "dir": "content/papers/2026-waveform-unification"
+  },
+  {
     "slug": "you-only-touch-once",
     "title": "You Only Touch Once: 6-DoF Object Pose Estimation from Single Tactile Contact",
     "short_title": "You Only Touch Once",
