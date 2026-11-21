@@ -138,7 +138,7 @@ window.PUBLICATIONS = [
     "themes": [
       "physics"
     ],
-    "selected": true,
+    "selected": false,
     "rank": 4,
     "is_new": true,
     "page": false,
@@ -213,7 +213,7 @@ window.PUBLICATIONS = [
     "themes": [
       "physics"
     ],
-    "selected": false,
+    "selected": true,
     "tldr": "Shrinks a physics-informed twin without losing the structural behaviour that made it useful.",
     "media": {
       "teaser": "teaser.jpg",
@@ -231,9 +231,14 @@ window.PUBLICATIONS = [
         "type": "arxiv",
         "url": "https://arxiv.org/abs/2605.07687",
         "label": "arXiv"
+      },
+      {
+        "type": "code",
+        "url": "https://github.com/Merealtea/PhySpring",
+        "label": "Code"
       }
     ],
-    "rank": 80,
+    "rank": 35,
     "bibtex": null,
     "dir": "content/papers/2026-physpring"
   },
@@ -547,7 +552,7 @@ window.PUBLICATIONS = [
     "themes": [
       "perception"
     ],
-    "selected": true,
+    "selected": false,
     "rank": 40,
     "tldr": "Restores dense depth from sparse scans with no task-specific training — a diffusion prior plus the right prompt.",
     "media": {
@@ -585,7 +590,7 @@ window.PUBLICATIONS = [
     "themes": [
       "perception"
     ],
-    "selected": true,
+    "selected": false,
     "rank": 50,
     "tldr": "Fuses geometry and intensity into one descriptor that flags defects without ever seeing a labelled defect.",
     "media": {

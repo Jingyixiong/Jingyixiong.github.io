@@ -13,7 +13,7 @@
   "themes": [
     "physics"
   ],
-  "selected": false,
+  "selected": true,
   "tldr": "Shrinks a physics-informed twin without losing the structural behaviour that made it useful.",
   "media": {
     "teaser": "teaser.jpg",
@@ -29,7 +29,11 @@
     {
       "type": "arxiv",
       "url": "https://arxiv.org/abs/2605.07687"
+    },
+    {
+      "type": "code",
+      "url": "https://github.com/Merealtea/PhySpring"
     }
   ],
-  "rank": 80
+  "rank": 35
 }

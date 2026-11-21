@@ -13,7 +13,7 @@
   "themes": [
     "perception"
   ],
-  "selected": true,
+  "selected": false,
   "rank": 50,
   "tldr": "Fuses geometry and intensity into one descriptor that flags defects without ever seeing a labelled defect.",
   "media": {

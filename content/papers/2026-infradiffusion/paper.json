@@ -13,7 +13,7 @@
   "themes": [
     "perception"
   ],
-  "selected": true,
+  "selected": false,
   "rank": 40,
   "tldr": "Restores dense depth from sparse scans with no task-specific training — a diffusion prior plus the right prompt.",
   "media": {

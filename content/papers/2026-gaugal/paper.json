@@ -11,7 +11,7 @@
     "status": "conference"
   },
   "themes": ["physics"],
-  "selected": true,
+  "selected": false,
   "rank": 4,
   "is_new": true,
   "page": false,
